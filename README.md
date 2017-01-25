@@ -46,7 +46,7 @@ This creates directories in `mytest_dir` for the application.
 
 ```
 ls mytest_dir/
-  app   # Common configuration directory for your blockchain applicaiton
+  app   # Common configuration directory for your blockchain application
   core  # Common configuration directory for Tendermint Core
   data  # Common configuration directory for MerkleEyes key-value store
   mach1 # Configuration directory for the Tendermint core daemon on machine 1
@@ -67,7 +67,7 @@ You can stop and remove the application as well.
 mintnet rm --force mytest
 ```
 
-Don't forget to destroy your createed machines!
+Don't forget to destroy your created machines!
 
 ```
 mintnet destroy --machines="mach1,mach2,mach3,mach4"
@@ -75,4 +75,4 @@ mintnet destroy --machines="mach1,mach2,mach3,mach4"
 
 ### Using VirtualBox on Mac OSX
 
-If you're experiencing slow network conditions on a local virtualbox VM, see [this link](https://github.com/docker/kitematic/issues/577#issuecomment-163493192).
+If you're experiencing slow network conditions on a local VirtualBox VM, see [this link](https://github.com/docker/kitematic/issues/577#issuecomment-163493192).
