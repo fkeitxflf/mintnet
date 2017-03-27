@@ -1,6 +1,6 @@
 # Mintnet
 
-*DEPRECATED*: Please see [mintnet-kubernetes](https://github.com/tendermint/mintnet-kubernetes)
+*DEPRECATED*: Please see [mintnet-kubernetes](https://github.com/tendermint/tools/tree/master/mintnet-kubernetes)
 
 [![CircleCI](https://circleci.com/gh/tendermint/mintnet.svg?style=svg)](https://circleci.com/gh/tendermint/mintnet)
 
