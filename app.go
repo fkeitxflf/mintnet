@@ -274,7 +274,7 @@ func startTMCore(mach, app string, seeds []string, randomPort, noTMSP bool, imag
 		tmspConditions = "" // tmcommon and tmapp weren't started
 	}
 	tmRoot := "/data/tendermint/core"
-	args := []string{"ssh", mach, Fmt(`docker run -d %v --name %v_tmcore --volumes-from %v_tmcommon %v`+
+	args := []string{"ssh", mach, Fmt(`docker run -d %v -u root --name %v_tmcore --volumes-from %v_tmcommon %v`+
 		`-e TMNAME="%v" -e TMSEEDS="%v" -e TMROOT="%v" -e PROXYAPP="%v" `+
 		`%v /data/tendermint/core/init.sh`,
 		portString, app, app, tmspConditions,
